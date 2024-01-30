@@ -6,10 +6,13 @@ export const Navbar = () => {
     <div>
       <div id="shopify-section-header" className="shopifiy-section">
         <header class="site-header">
-            <nav class="site-header__nav">
+            <nav >
                 <ul class="site-header__links">
-                    <li class="site-header__link-item">
-                        <a href="/collections/new" class="site-header__link" title="Shop" aria-label="Shop">Shop</a>
+                    <li class>
+                        <a href="/collections/new" class="site-header__link" title="Home" aria-label="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="/collections/new" class="site-header__link" title="Contact" aria-label="Contact">Contact</a>
                     </li>
                 </ul>
             </nav>
